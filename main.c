@@ -1,6 +1,13 @@
 #include <stdio.h>
 
+struct Point{
+    int x;
+    int y;
+};
+
 int main(){
+    int index = 0;
+    struct Point arr[100];
 
     printf("huanyuingjinruzhuanchangweizhiguanlixitong\n");
 
@@ -16,7 +23,11 @@ int main(){
         scanf("%d",&code);
 
         if(code == 1){
-
+            printf("qingshurucheliangqweizhixyzuobiao:\n");
+            int x;
+            int y;
+            scanf("%c",&x);
+            scanf("%c",&y);
         }
         if(code == 2){
             
